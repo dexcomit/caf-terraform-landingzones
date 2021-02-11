@@ -26,14 +26,6 @@ terraform {
     }
   }
   required_version = ">= 0.13"
-
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organiation = "dexcom"
-    workspace {
-        name = "test-landingzone-caf-foundations"
-    }
-  }
 }
 
 
